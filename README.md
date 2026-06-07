@@ -2,24 +2,24 @@
 
 ## Overview
 
-This project predicts whether parental intervention is required based on children's mobile application usage patterns.
+This project predicts whether parental intervention is required based on children's app usage behavior.
 
 The system analyzes:
 
-* App usage duration
-* Usage frequency
-* Age groups
-* Emotional responses
-* Time of day
-* App categories
+* App Usage Duration
+* Usage Frequency
+* Emotional State
+* Age Group
+* App Category
+* Time of Day
 
-and uses Machine Learning to identify potentially risky digital behavior.
+## Dataset
 
-## Research Background
+A synthetic dataset of 10,000 application usage sessions was generated to simulate children's digital behavior patterns.
 
-This project was developed as part of my M.Sc Data Science research work at VIT Chennai.
+## Machine Learning
 
-A synthetic dataset of 10,000 app usage sessions was created to simulate children's digital behavior patterns.
+The project uses a Random Forest Classifier to predict intervention requirements.
 
 ## Technologies
 
@@ -27,28 +27,23 @@ A synthetic dataset of 10,000 app usage sessions was created to simulate childre
 * Pandas
 * NumPy
 * Scikit-Learn
-* Random Forest
+* Streamlit
 * Matplotlib
 * Seaborn
-* Streamlit
 
 ## Repository Structure
 
-data/
-models/
-notebooks/
-src/
-dashboard/
-
-## Future Improvements
-
-* Explainable AI integration
-* Real-time monitoring dashboard
-* Mobile deployment
-* Personalized parental recommendations
+* data/
+* src/
+* models/
+* dashboard/
+* notebooks/
+* paper/
 
 ## Author
 
 Pallavi K
+
 M.Sc Data Science
+
 VIT Chennai
